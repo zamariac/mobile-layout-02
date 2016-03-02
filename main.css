@@ -1,6 +1,33 @@
-nav{
-	height: 3em;
+.nav{
 	background-color: #118BC0;
+	padding-left: 1em;
+	padding-bottom: .25em;
+}
+
+.left{
+	background-color: white;
+	height: 1.8em;
+	width: 2em;
+	display: inline-block;
+}
+
+.middle{
+	background-color: white;
+	height: 1.9em;
+	width: 8em;
+	display: inline-block;
+	margin-left: .5em;
+
+}
+
+.right{
+	background-color: #0070A4;
+	height: 2.5em;
+	width: 5em;
+	display: inline-block;
+	float: right;
+
+	
 }
 
 main{
@@ -14,7 +41,7 @@ main{
 	color: white;
 	text-align: center;
 	padding-top: 6em;
-	line-height: 1em;
+	line-height: 1.2em;
 }
 
 .createSub{
@@ -90,7 +117,7 @@ main{
 
  }
 
- span{
+.bottomText{
  	color:white;
  	font-size: 10px;
  	text-align: center;
