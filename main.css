@@ -1,35 +1,43 @@
 .nav{
 	background-color: #118BC0;
+	overflow: hidden;
 }
 
 .left{
 	background-color: white;
-	height: 1.5em;
-	width: 2em;
+	height: 1.8em;
+	width: 1.8em;
 	display: inline-block;
-	margin-left: .3em;
-	margin-top: .4em;
-	margin-bottom: .4em;
-
+	margin-left: .6em;
+	margin-top: .5em;
+	float:left;
+	
 }
 
 .middle{
-	background-color: white;
-	height: 1.5em;
-	width: 7em;
+	width: 8em;
 	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: .5em;
 	margin-left: .5em;
-	margin-top: .4em;
-	margin-bottom: .4em;
+	text-align: center;
+	font-size: .85em;
+	color: white;
+	float: left;
 
 }
 
 .right{
 	background-color: #0070A4;
-	height: 2.5em;
-	width: 5em;
-	display: inline-block;
+	height: 1.9em;
+	width: 6em;
 	float: right;
+	color: white;
+	text-align: center;
+	font-size:.6em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+
 
 	
 }
@@ -57,10 +65,15 @@ main{
 }
  .firstBox{
  	background-color: #1E8CBE;
- 	height: 2em;
+ 	/*height: 2em;*/
  	width: 10em;
  	border: black solid .5em;
  	margin: 0 auto;
+ 	text-align: center;
+ 	font-size: 1em;
+ 	color: white;
+ 	padding-top: .7em;
+ 	padding-bottom: .7em;
 
  }
  .tinyBox{
@@ -75,7 +88,7 @@ main{
  }
 
  .whiteMain{
- 	background-color: white;
+ 	/*background-color: white;*/
  	height: 3.4em;
  	width: 16em;
  	margin-left: auto;
@@ -84,27 +97,46 @@ main{
 
  }
 .smGrayWhite{
-	background-color:#616E7F;
-	height: 2.9em;
+	background-color:white;
+	height: 2.3em;
 	width: 2em; 
 	border-top: white solid .5em;
 	border-right: white solid .5em;
 
 }
+
  .grayWhite{
- 	background-color: #616E7F;
+ 	/*background-color: #616E7F;*/
  	height: 2.9em;
  	width: 13em;
  	float: right;
- 	border-bottom: white solid .5em;
- 	border-right: white solid .2em;
+ 	/*border-bottom: white solid .5em;
+ 	border-right: white solid .2em;*/
 
+ }
+ .title{
+ 	color:white;
+ 	font-size: .9em;
+ 	padding-left: .4em;
+
+ }
+
+ .description{
+ 	color: white;
+ 	font-size: .7em;
+ 	padding-top: .5em;
+ 	padding-left: .4em;
 
  }
 
  .babyBlue{
  	background-color: #E7EFF4;
- 	height: 10em;
+ 	font-size: 1.2em;
+ 	color: #45546D;
+ 	text-align: center;
+ 	padding-top: 1.3em;
+ 	padding-bottom: 1.3em;
+ 	line-height: 1.7em;
  }
 
  .grayMain{
@@ -167,6 +199,10 @@ main{
  	color:white;
  	font-size: 10px;
  	text-align: center;
+ 	list-style: none;
+ }
+ 	li{
+ 		display: inline-block;
 
  }
 
