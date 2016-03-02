@@ -50,4 +50,57 @@ main{
  	margin-left: auto;
  	margin-right: auto;
  	margin-bottom: 1.8em;
+
+ }
+
+ .babyBlue{
+ 	background-color: #E7EFF4;
+ 	height: 8em;
+ }
+
+ .grayMain{
+ 	background-color: #D0D2D6;
+ 	padding-top: .1em;
+ 	padding-bottom: 1em;
+ }
+ .whiteGray{
+ 	background-color: white;
+ 	height: 9em;
+ 	margin-top: 1em;
+ 	margin-right-bottom: 2em;
+ 	margin-left: .5em;
+ 	margin-right: .5em;
+ }
+
+ #babyBlueTwo{
+ 	padding-top: 5em;
+ 	height: 3em;
+ }
+
+ #firstBoxTwo{
+ 	border: 0;
+
+ }
+
+ footer{
+ 	background-color: black;
+ 	text-align: center;
+ 	padding-top: 1em;
+ 	padding-bottom: 1em;
+
+ }
+
+ span{
+ 	color:white;
+ 	font-size: 10px;
+ 	text-align: center;
+
+ }
+
+ .footerWhite{
+ 	height: 1em;
+ 	background-color: white;
+ 	margin-left: 9em;
+ 	margin-right: 9em;
+ 	margin-top: .6em;
  }
