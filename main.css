@@ -162,18 +162,23 @@ main{
  	margin: 0 auto;
  }
  .grayB{
- 	background-color: #C7D2D8;
- 	height: 1.5em;
+ 	/*background-color: #C7D2D8;*/
  	margin-left: 1em;
  	margin-right: 1em;
  	margin-top: 1em;
+ 	text-align: center;
+ 	font-size: 1em;
+ 	color: #344051;
  }
  .grayC{
- 	background-color: #C7D2D8;
- 	height: 3em;
+ 	/*background-color: #C7D2D8;*/
+ 	/*height: 3em;*/
  	margin-left: 1em;
  	margin-right: 1em;
  	margin-top: 1em;
+ 	text-align: center;
+ 	font-size: .9em;
+ 	line-height: 1.5em;
 
  }
 
