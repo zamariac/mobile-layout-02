@@ -4,26 +4,34 @@
 }
 
 .left{
-	background-color: white;
-	height: 1.8em;
-	width: 1.8em;
 	display: inline-block;
 	margin-left: .6em;
-	margin-top: .5em;
+	margin-top: .8em;
 	float:left;
+	color: white;
 	
 }
 
 .middle{
-	width: 8em;
 	display: inline-block;
 	padding-top: 1em;
 	padding-bottom: .5em;
-	margin-left: .5em;
+	margin-left: .8em;
 	text-align: center;
 	font-size: .85em;
 	color: white;
 	float: left;
+
+}
+
+.com{
+	font-size: .85em;
+	color:#7CBEDB;
+	float: left;
+	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	float:left;
 
 }
 
@@ -43,7 +51,7 @@
 }
 
 main{
-	background-color: #344051;
+	background-image: url(./images/crowd.jpg);
 	padding-bottom: 2.6em;
 
 }
@@ -66,7 +74,7 @@ main{
  .firstBox{
  	background-color: #1E8CBE;
  	width: 9em;
- 	border: black solid .5em;
+ 	border: solid .5em  rgba(0,0,0,0.62);
  	margin: 0 auto;
  	text-align: center;
  	font-size: 1em;
@@ -75,14 +83,16 @@ main{
  	padding-bottom: .7em;
 
  }
- .tinyBox{
- 	background-color: white;
+ .tinyBox {
+ 	/*background-color: white;*/
  	height: 1em;
  	width: 2.5em;
  	margin-top: 8em;
  	margin-left: auto;
  	margin-right: auto;
  	margin-bottom: 5em;
+ 	text-align: center;
+ 	color: white;
 
  }
 
@@ -95,12 +105,9 @@ main{
  	margin-bottom: 1.8em;
 
  }
+
 .smGrayWhite{
-	background-color:white;
-	height: 2.3em;
-	width: 2em; 
-	border-top: white solid .5em;
-	border-right: white solid .5em;
+	color: white;
 
 }
 
@@ -158,8 +165,37 @@ main{
  	background-color: #C7D2D8;
  	height: 3em;
  	width: 3em;
+ 	border-radius: 50%;
  	margin: 0 auto;
+ 	color: #547D98;
  }
+
+ .fa-lightbulb-o{
+ 	margin: 9px 15px;
+
+ }
+
+ .fa-cloud{
+ 	margin: 9px 8px;
+
+ }
+
+ .fa-code{
+ 	margin: 8px 8px; 
+ }
+
+ .fa-comments{
+ 	margin: 8px 8px; 
+ }
+
+ .fa-gift{
+ 	margin: 9px 11px;
+ }
+ .fa-globe{
+ 	margin: 9px 11px;
+ }
+
+
  .grayB{
  	/*background-color: #C7D2D8;*/
  	margin-left: 1em;
@@ -216,9 +252,8 @@ a{
  	
 
  .footerWhite{
- 	height: 1em;
- 	background-color: black;
- 	/*width: 7em;
- 	margin: auto;
- 	margin-top: 1em;*/
+ 	background-image: url(./images/automattic.png);
+ 	height: 3em;
+	margin: 10px 123px;
+ 	
  }
