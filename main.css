@@ -1,22 +1,26 @@
 .nav{
 	background-color: #118BC0;
-	padding-left: 1em;
-	padding-bottom: .25em;
 }
 
 .left{
 	background-color: white;
-	height: 1.8em;
+	height: 1.5em;
 	width: 2em;
 	display: inline-block;
+	margin-left: .3em;
+	margin-top: .4em;
+	margin-bottom: .4em;
+
 }
 
 .middle{
 	background-color: white;
-	height: 1.9em;
-	width: 8em;
+	height: 1.5em;
+	width: 7em;
 	display: inline-block;
 	margin-left: .5em;
+	margin-top: .4em;
+	margin-bottom: .4em;
 
 }
 
@@ -79,10 +83,28 @@ main{
  	margin-bottom: 1.8em;
 
  }
+.smGrayWhite{
+	background-color:#616E7F;
+	height: 2.9em;
+	width: 2em; 
+	border-top: white solid .5em;
+	border-right: white solid .5em;
+
+}
+ .grayWhite{
+ 	background-color: #616E7F;
+ 	height: 2.9em;
+ 	width: 13em;
+ 	float: right;
+ 	border-bottom: white solid .5em;
+ 	border-right: white solid .2em;
+
+
+ }
 
  .babyBlue{
  	background-color: #E7EFF4;
- 	height: 8em;
+ 	height: 10em;
  }
 
  .grayMain{
@@ -90,13 +112,37 @@ main{
  	padding-top: .1em;
  	padding-bottom: 1em;
  }
+
  .whiteGray{
  	background-color: white;
  	height: 9em;
  	margin-top: 1em;
- 	margin-right-bottom: 2em;
  	margin-left: .5em;
  	margin-right: .5em;
+ 	padding-top: 1em;
+ 	padding-bottom: 2em;
+ }
+
+ .grayA{
+ 	background-color: #C7D2D8;
+ 	height: 3em;
+ 	width: 3em;
+ 	margin: 0 auto;
+ }
+ .grayB{
+ 	background-color: #C7D2D8;
+ 	height: 1.5em;
+ 	margin-left: 1em;
+ 	margin-right: 1em;
+ 	margin-top: 1em;
+ }
+ .grayC{
+ 	background-color: #C7D2D8;
+ 	height: 3em;
+ 	margin-left: 1em;
+ 	margin-right: 1em;
+ 	margin-top: 1em;
+
  }
 
  #babyBlueTwo{
@@ -127,7 +173,7 @@ main{
  .footerWhite{
  	height: 1em;
  	background-color: white;
- 	margin-left: 9em;
- 	margin-right: 9em;
- 	margin-top: .6em;
+ 	width: 7em;
+ 	margin: auto;
+ 	margin-top: 1em;
  }
