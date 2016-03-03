@@ -6,7 +6,7 @@
 .left{
 	display: inline-block;
 	margin-left: .6em;
-	margin-top: .8em;
+	margin-top: .6em;
 	float:left;
 	color: white;
 	
@@ -21,11 +21,12 @@
 	font-size: .85em;
 	color: white;
 	float: left;
+	font-size: 1.5em;
 
 }
 
 .com{
-	font-size: .85em;
+	font-size: 1.5em;
 	color:#7CBEDB;
 	float: left;
 	display: inline-block;
@@ -249,8 +250,7 @@ a{
  	text-decoration: none;
 
  }
- 	
-
+ 
  .footerWhite{
  	background-image: url(./images/automattic.png);
  	height: 3em;
