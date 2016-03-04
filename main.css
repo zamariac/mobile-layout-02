@@ -4,7 +4,6 @@
 }
 
 .left{
-	display: inline-block;
 	margin-left: .6em;
 	margin-top: .6em;
 	float:left;
@@ -13,7 +12,6 @@
 }
 
 .middle{
-	display: inline-block;
 	padding-top: 1em;
 	padding-bottom: .5em;
 	margin-left: .8em;
@@ -29,7 +27,6 @@
 	font-size: 1.5em;
 	color:#7CBEDB;
 	float: left;
-	display: inline-block;
 	padding-top: 1em;
 	padding-bottom: .5em;
 	float:left;
@@ -54,6 +51,9 @@
 main{
 	background-image: url(./images/crowd.jpg);
 	padding-bottom: 2.6em;
+	background-repeat: none;
+
+
 
 }
 
@@ -255,5 +255,6 @@ a{
  	background-image: url(./images/automattic.png);
  	height: 3em;
 	margin: 10px 123px;
+	background-size: contain;
  	
  }
